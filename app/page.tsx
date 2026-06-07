@@ -132,12 +132,6 @@ export default function Home() {
                 </div>
               </Reveal>
 
-              <Reveal delay={300}>
-                <p className="font-mono text-xs text-slate-400">
-                  For firms that run on documents and deadlines. Accounting, bookkeeping, title,
-                  legal, and advisory.
-                </p>
-              </Reveal>
 
             </div>
           </Container>
