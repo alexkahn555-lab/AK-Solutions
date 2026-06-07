@@ -7,7 +7,7 @@ interface CalendlyEmbedProps {
 }
 
 export default function CalendlyEmbed({
-  url = "https://calendly.com/REPLACE-ME/intro",
+  url = "https://calendly.com/alex-kahn-ak-solution/30min",
 }: CalendlyEmbedProps) {
   return (
     <>
