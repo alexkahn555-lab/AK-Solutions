@@ -1,5 +1,4 @@
 import Nav from "@/components/Nav";
-import DemoFrame from "@/components/DemoFrame";
 import CalendlyEmbed from "@/components/CalendlyEmbed";
 import Container from "@/components/ui/Container";
 import Button from "@/components/ui/Button";
@@ -108,55 +107,36 @@ export default function Home() {
           className="relative bg-dot-grid pb-16 pt-14 md:pb-24 md:pt-24"
         >
           <Container>
-            <div className="grid grid-cols-1 items-center gap-12 min-[900px]:grid-cols-2 lg:gap-20">
+            <div className="max-w-[640px]">
 
-              {/* Left column */}
-              <div>
-                <Reveal>
-                  <div className="mb-6">
-                    <span className="inline-flex items-center rounded-full bg-brand-50 px-3 py-1.5 font-mono text-[11px] uppercase tracking-[0.12em] text-brand">
-                      AI workflow setup · South Florida firms
-                    </span>
-                  </div>
-                </Reveal>
+              <Reveal delay={80}>
+                <h1 className="mb-6 font-heading text-4xl font-semibold leading-[1.1] tracking-[-0.03em] text-slate-900 sm:text-5xl">
+                  Your firm runs on the same tasks every week. We automate the ones that don&rsquo;t need you.
+                </h1>
+              </Reveal>
 
-                <Reveal delay={80}>
-                  <h1 className="mb-6 font-heading text-4xl font-semibold leading-[1.1] tracking-[-0.03em] text-slate-900 sm:text-5xl">
-                    Your firm runs on the same tasks every week. Most of them{" "}
-                    <span className="text-brand">don&rsquo;t need you.</span>
-                  </h1>
-                </Reveal>
+              <Reveal delay={160}>
+                <p className="mb-8 max-w-[36ch] text-lg leading-[1.7] text-slate-500">
+                  We take the repetitive work off your plate for good — every decision that matters stays with you.
+                </p>
+              </Reveal>
 
-                <Reveal delay={160}>
-                  <p className="mb-8 max-w-[36ch] text-lg leading-[1.7] text-slate-500">
-                    We build and run the systems that take the repetitive work off your plate —
-                    closing the books, chasing invoices, answering missed calls, keeping your
-                    website handled. You stay in control of every decision.
-                  </p>
-                </Reveal>
+              <Reveal delay={240}>
+                <div className="mb-5 flex flex-wrap gap-3">
+                  <Button href="#book" variant="primary">
+                    Book a 20-minute call
+                  </Button>
+                  <Button href="#how" variant="secondary">
+                    See how it works
+                  </Button>
+                </div>
+              </Reveal>
 
-                <Reveal delay={240}>
-                  <div className="mb-5 flex flex-wrap gap-3">
-                    <Button href="#book" variant="primary">
-                      Book a 20-minute call
-                    </Button>
-                    <Button href="#how" variant="secondary">
-                      See how it works
-                    </Button>
-                  </div>
-                </Reveal>
-
-                <Reveal delay={300}>
-                  <p className="font-mono text-xs text-slate-400">
-                    For firms that run on documents and deadlines. Accounting, bookkeeping, title,
-                    legal, and advisory.
-                  </p>
-                </Reveal>
-              </div>
-
-              {/* Right column — DemoFrame */}
-              <Reveal delay={200}>
-                <DemoFrame />
+              <Reveal delay={300}>
+                <p className="font-mono text-xs text-slate-400">
+                  For firms that run on documents and deadlines. Accounting, bookkeeping, title,
+                  legal, and advisory.
+                </p>
               </Reveal>
 
             </div>
@@ -513,6 +493,18 @@ export default function Home() {
               <div className="mx-auto mt-14 w-full max-w-2xl overflow-hidden rounded-2xl bg-white shadow-xl">
                 <CalendlyEmbed />
               </div>
+
+              <div className="mt-10 text-left">
+                <p className="mb-4 text-sm text-brand-100/60">
+                  For urgent inquiries, reach us directly.
+                </p>
+                <a
+                  href="mailto:alex.kahn@ak-solution.org"
+                  className="inline-flex items-center justify-center rounded-lg border border-brand px-6 py-3 text-[15px] font-medium leading-none tracking-[-0.01em] text-brand transition-all duration-[180ms] ease-out hover:bg-brand/10 active:scale-[0.98] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2"
+                >
+                  Email alex.kahn@ak-solution.org
+                </a>
+              </div>
             </div>
           </Container>
         </section>
@@ -523,8 +515,7 @@ export default function Home() {
       <footer className="border-t border-slate-100 py-8">
         <Container>
           <div className="flex flex-col gap-1.5 font-mono text-xs text-slate-400 min-[600px]:flex-row min-[600px]:justify-between">
-            <span>© 2026 BRAND · Miami, FL</span>
-            <span>[EMAIL] · Built on Claude</span>
+            <span>© 2026 AK Solutions · Miami, FL</span>
           </div>
         </Container>
       </footer>

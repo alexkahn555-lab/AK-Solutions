@@ -7,10 +7,9 @@ export default function Nav() {
       <Container>
         <nav className="flex h-16 items-center justify-between">
           {/* Wordmark */}
-          <a href="#top" className="flex items-center gap-2.5 no-underline">
-            <span className="h-4 w-4 flex-shrink-0 rounded bg-brand" />
+          <a href="#top" className="no-underline">
             <span className="font-heading text-[15px] font-semibold tracking-tight text-slate-900">
-              BRAND
+              AK Solutions
             </span>
           </a>
 
