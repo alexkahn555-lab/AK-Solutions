@@ -67,7 +67,7 @@ export default function WebsiteDesign() {
               </Reveal>
               <Reveal delay={160}>
                 <h1 className="mb-6 font-heading text-4xl font-semibold leading-[1.1] tracking-[-0.03em] text-slate-900 sm:text-5xl">
-                  SEO website design for law firms, CPA firms, and professional services businesses.
+                  Most small business websites sit on the internet and do nothing. We build sites that rank on Google, load fast, and turn visitors into booked calls &mdash; built the right way from the ground up.
                 </h1>
               </Reveal>
               <Reveal delay={240}>
