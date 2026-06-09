@@ -7,7 +7,7 @@ export default function Nav() {
       <Container>
         <nav className="flex h-16 items-center justify-between">
           {/* Wordmark */}
-          <a href="#top" className="no-underline">
+          <a href="/" className="no-underline">
             <span className="font-heading text-[15px] font-semibold tracking-tight text-slate-900">
               AK Solutions
             </span>
@@ -16,16 +16,22 @@ export default function Nav() {
           {/* Right side */}
           <div className="flex items-center gap-7">
             <a
-              href="#how"
+              href="/work-automation"
               className="hidden text-[14px] text-slate-500 transition-colors duration-150 hover:text-slate-900 md:block"
             >
-              How it works
+              Work Automation
             </a>
             <a
-              href="#pricing"
+              href="/website-design"
               className="hidden text-[14px] text-slate-500 transition-colors duration-150 hover:text-slate-900 md:block"
             >
-              Pricing
+              Website Design
+            </a>
+            <a
+              href="/ai-receptionist"
+              className="hidden text-[14px] text-slate-500 transition-colors duration-150 hover:text-slate-900 md:block"
+            >
+              AI Receptionist
             </a>
             <Button href="#book" variant="primary">
               Book a call

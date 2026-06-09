@@ -16,8 +16,9 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Landing Page",
-  description: "Professional SaaS landing page",
+  metadataBase: new URL("https://ak-solution.org"),
+  title: "AK Solutions",
+  description: "AI automation, AI phone receptionists, and SEO websites for professional services firms in South Florida.",
 };
 
 export default function RootLayout({
