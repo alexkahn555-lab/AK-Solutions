@@ -103,7 +103,7 @@ export default function WorkAutomation() {
               </Reveal>
               <Reveal delay={300}>
                 <p className="mb-8 text-[13px] leading-[1.6] text-slate-400">
-                  Serving CPA firms, bookkeepers, title companies, law offices, and advisory firms in South Florida.
+                  Built for any business that runs on documents, deadlines, and repeat work.
                 </p>
               </Reveal>
               <Reveal delay={360}>

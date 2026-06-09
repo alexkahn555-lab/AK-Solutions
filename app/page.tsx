@@ -108,7 +108,7 @@ export default function Home() {
         <div className="bg-slate-50 py-6">
           <Container>
             <p className="text-center text-[13px] leading-[1.7] text-slate-400">
-              Serving accounting firms, CPA practices, bookkeepers, title companies, law offices, and advisory firms across Miami, Fort Lauderdale, Boca Raton, and South Florida.
+              Built for any business that runs on documents, deadlines, and repeat work.
             </p>
           </Container>
         </div>

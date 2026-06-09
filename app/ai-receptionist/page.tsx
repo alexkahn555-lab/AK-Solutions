@@ -77,7 +77,7 @@ export default function AiReceptionist() {
               </Reveal>
               <Reveal delay={300}>
                 <p className="mb-8 text-[13px] leading-[1.6] text-slate-400">
-                  Built for law offices, CPA firms, title companies, and small professional services businesses across South Florida.
+                  Built for any business that runs on documents, deadlines, and repeat work.
                 </p>
               </Reveal>
               <Reveal delay={360}>
