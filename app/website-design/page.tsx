@@ -72,7 +72,7 @@ export default function WebsiteDesign() {
               </Reveal>
               <Reveal delay={240}>
                 <p className="mb-4 max-w-[52ch] text-lg leading-[1.7] text-slate-500">
-                  We build fast, SEO-optimized websites for professional services firms in South Florida &mdash; built on a technical SEO foundation that earns traffic from day one.
+                  We build SEO-optimized sites that rank on Google, load fast, and turn visitors into booked calls &mdash; built the right way from the ground up.
                 </p>
               </Reveal>
               <Reveal delay={300}>
