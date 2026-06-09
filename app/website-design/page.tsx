@@ -67,20 +67,15 @@ export default function WebsiteDesign() {
               </Reveal>
               <Reveal delay={160}>
                 <h1 className="mb-6 font-heading text-4xl font-semibold leading-[1.1] tracking-[-0.03em] text-slate-900 sm:text-5xl">
-                  Most small business websites sit on the internet and do nothing. We build sites that rank on Google, load fast, and turn visitors into booked calls &mdash; built the right way from the ground up.
+                  Most small business websites sit on the internet and do nothing.
                 </h1>
               </Reveal>
               <Reveal delay={240}>
-                <p className="mb-4 max-w-[52ch] text-lg leading-[1.7] text-slate-500">
+                <p className="mb-8 max-w-[52ch] text-lg leading-[1.7] text-slate-500">
                   We build SEO-optimized sites that rank on Google, load fast, and turn visitors into booked calls &mdash; built the right way from the ground up.
                 </p>
               </Reveal>
-              <Reveal delay={300}>
-                <p className="mb-8 text-[13px] leading-[1.6] text-slate-400">
-                  Built for any business that runs on documents, deadlines, and repeat work.
-                </p>
-              </Reveal>
-              <Reveal delay={360}>
+              <Reveal delay={320}>
                 <Button href="/#booking" variant="primary">
                   Book a 20-minute call
                 </Button>
